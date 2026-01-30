@@ -2,7 +2,7 @@
 
 ## 🚀 Enable GitHub Pages
 
-1. Go to your repository: https://github.com/Naveen-Sadhanala/PowerStackHub
+1. Go to your repository: https://github.com/sailendrakondapalli/NaveenBroTask_1
 2. Click on **Settings** tab
 3. Scroll down to **Pages** section in the left sidebar
 4. Under **Source**, select **GitHub Actions**
@@ -11,7 +11,7 @@
 ## 📱 Your Live App URL
 
 Once GitHub Pages is enabled, your app will be available at:
-**https://naveen-sadhanala.github.io/PowerStackHub**
+**https://sailendrakondapalli.github.io/NaveenBroTask_1**
 
 ## 🔄 Automatic Deployment
 
