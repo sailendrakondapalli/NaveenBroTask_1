@@ -1,11 +1,9 @@
+# Render Static Site Configuration
+# This file configures automatic deployment of the Expo web build
+
 services:
   - type: web
-    name: powerstackhub
-    env: node
-    plan: free
-    buildCommand: npm ci && npx expo export --platform web
-    staticPublishPath: ./dist
-    routes:
-      - type: rewrite
-        source: /*
-        destination: /index.html
+    name: powerstackhub-static
+    env: static_site
+    buildCommand: cd PowerStackHub && npm ci && npx expo export --platform web
+    staticPublishPath: PowerStackHub/dist

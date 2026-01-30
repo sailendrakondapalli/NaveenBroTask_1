@@ -9,7 +9,7 @@ Follow these steps to deploy your Expo web app to Render:
 - Sign up with your GitHub account
 
 ### 2. Create New Static Site
-1. Click **"New +"** → **"Static Site"**
+1. Click **"New +"** → **"Static Site"** (NOT Web Service)
 2. Connect your GitHub repository: `sailendrakondapalli/NaveenBroTask_1`
 3. Configure the deployment:
 
@@ -19,8 +19,14 @@ Name: powerstackhub (or your preferred name)
 Branch: main
 Root Directory: PowerStackHub
 Build Command: npm ci && npx expo export --platform web
-Publish Directory: PowerStackHub/dist
+Publish Directory: dist
 ```
+
+**Important**: Choose "Static Site" because:
+- ✅ Your Expo app builds to static files
+- ✅ Free tier available
+- ✅ Fast CDN delivery
+- ✅ Perfect for frontend-only apps
 
 ### 4. Environment Variables (Optional)
 No environment variables needed for basic deployment.
