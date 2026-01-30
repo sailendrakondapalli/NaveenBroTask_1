@@ -10,6 +10,7 @@
     "build": "expo build",
     "build:web": "expo export --platform web",
     "export": "expo export",
+    "deploy": "npm run build:web && echo 'Build complete! Push to GitHub to deploy to Pages'",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
